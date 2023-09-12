@@ -59,5 +59,8 @@ Using Mongosh:		1.10.6
 
 For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
-test>
+test> show dbs;
+admin   100.00 KiB
+config   12.00 KiB
+local    40.00 KiB
 ```
