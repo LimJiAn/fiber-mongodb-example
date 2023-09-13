@@ -68,6 +68,10 @@ local    40.00 KiB
 ```bash
 $ go run main.go
 ```
+or
+```bash
+$ make go
+```
 ```console
 2023/09/13 20:00:00 MongoDB successfully connected...
 
