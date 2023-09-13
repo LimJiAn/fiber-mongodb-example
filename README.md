@@ -65,6 +65,23 @@ config   12.00 KiB
 local    40.00 KiB
 ```
 #### 6. Example with Postman
+```bash
+$ go run main.go
+```
+```console
+2023/09/13 20:00:00 MongoDB successfully connected...
+
+ ┌───────────────────────────────────────────────────┐
+ │                   Fiber v2.49.1                   │
+ │               http://127.0.0.1:3000               │
+ │       (bound on host 0.0.0.0 and port 3000)       │
+ │                                                   │
+ │ Handlers ............. 8  Processes ........... 1 │
+ │ Prefork ....... Disabled  PID ............. 14080 │
+ └───────────────────────────────────────────────────┘
+
+
+```
 ###### 1. POST
 ![POST](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/93d97a0c-1752-4763-bb65-044fb3bd69bf)
 ###### 2. GET
