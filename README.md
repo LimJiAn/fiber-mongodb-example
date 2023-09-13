@@ -64,3 +64,12 @@ admin   100.00 KiB
 config   12.00 KiB
 local    40.00 KiB
 ```
+#### 6. Example with Postman
+###### 1. POST
+![POST](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/93d97a0c-1752-4763-bb65-044fb3bd69bf)
+###### 2. GET
+![GET](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/0e6e062f-e551-4d84-a7e9-fa2da7d49d91)
+###### 3. PUT
+![PUT](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/2d69d1a4-450a-46da-ab4d-d9a21ea514de)
+###### 4. DELETE
+![DELETE](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/7aad6f1a-69b4-4ba0-b9ed-0656f706d954)
