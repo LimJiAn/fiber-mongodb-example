@@ -87,10 +87,10 @@ $ make go
 
 ```
 ###### 1. POST
-![POST](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/40da574e-d4f1-4dcf-a900-da3bd9d53859)
+![POST](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/99d9ea3b-019a-400d-89a7-6f91bfb83f09)
 ###### 2. GET
-![GET](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/7ee814d7-fc0e-4cd3-8dd8-bd4c6faee910)
+![GET](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/6890b2f3-68b3-4f6b-84e4-035a0fba3701)
 ###### 3. PUT
-![PUT](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/0fb2a8ea-02b3-4fc2-82a4-2d654c4ac5ca)
+![PUT](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/185aac45-cd20-4ed2-b399-18d4115f8c4a)
 ###### 4. DELETE
-![DELETE](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/522fd963-08c5-4335-8722-60b9a28031b4)
+![DELETE](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/b894ace0-905f-4c71-9f97-7f25c947493a)
