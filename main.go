@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"log"
+	"os"
 	"time"
 
 	"github.com/gofiber/fiber/v2"
@@ -33,7 +34,7 @@ func init() {
 	defer cancel()
 
 	// Connect to MongoDB
-	mongoconn := options.Client().ApplyURI("mongodb://rootuser:rootpass@localhost:27017")
+	mongoconn := options.Client().ApplyURI(os.Getenv("MONGO_URL"))
 	mongoclient, err := mongo.Connect(ctx, mongoconn)
 	if err != nil {
 		panic(err)
