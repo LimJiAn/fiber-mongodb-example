@@ -26,8 +26,22 @@ Attaching to mongo-expressre, mongodb
 ...
 ...
 ...
-mongodb  | {"t":{"$date":"2023-09-11T08:08:27.951+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
-mongo-expressre  | Mongo Express server listening at http://0.0.0.0:8081
+mongodb                | {"t":{"$date":"2023-09-19T07:52:35.764+00:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn4","msg":"Successfully authenticated","attr":{"client":"192.168.160.4:54426","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"rootuser","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":2251,"summary":{"0":{"step":1,"step_total":2,"duration_micros":43},"1":{"step":2,"step_total":2,"duration_micros":13}}}},"extraInfo":{}}}
+mongodb                | {"t":{"$date":"2023-09-19T07:52:35.765+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn4","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":0}}
+mongo-expressre        | Mongo Express server listening at http://0.0.0.0:8081
+
+go-mongodb-exam-web-1  | running...
+go-mongodb-exam-web-1  | 2023/09/19 07:52:35 MongoDB successfully connected...
+go-mongodb-exam-web-1  |
+go-mongodb-exam-web-1  |  ┌───────────────────────────────────────────────────┐
+go-mongodb-exam-web-1  |  │                   Fiber v2.49.2                   │
+go-mongodb-exam-web-1  |  │               http://127.0.0.1:3000               │
+go-mongodb-exam-web-1  |  │       (bound on host 0.0.0.0 and port 3000)       │
+go-mongodb-exam-web-1  |  │                                                   │
+go-mongodb-exam-web-1  |  │ Handlers ............. 8  Processes ........... 1 │
+go-mongodb-exam-web-1  |  │ Prefork ....... Disabled  PID ............... 677 │
+go-mongodb-exam-web-1  |  └───────────────────────────────────────────────────┘
+go-mongodb-exam-web-1  |
 ```
 #### 3. You can see useful mongo-express dashboard at [localhost:8081](http://localhost:8081)
 ![mongo-express](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/128069a1-7c84-41ea-9ec1-f6920eadc854)
@@ -65,27 +79,6 @@ config   12.00 KiB
 local    40.00 KiB
 ```
 #### 6. Example with Postman
-```bash
-$ go run main.go
-```
-or
-```bash
-$ make go
-```
-```console
-2023/09/13 20:00:00 MongoDB successfully connected...
-
- ┌───────────────────────────────────────────────────┐
- │                   Fiber v2.49.1                   │
- │               http://127.0.0.1:3000               │
- │       (bound on host 0.0.0.0 and port 3000)       │
- │                                                   │
- │ Handlers ............. 8  Processes ........... 1 │
- │ Prefork ....... Disabled  PID ............. 14080 │
- └───────────────────────────────────────────────────┘
-
-
-```
 ###### 1. POST
 ![POST](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/99d9ea3b-019a-400d-89a7-6f91bfb83f09)
 ###### 2. GET
