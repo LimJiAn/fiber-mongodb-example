@@ -1,7 +1,7 @@
 # go-mongodb-exam
 [![Go](https://img.shields.io/badge/go-1.21-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/dl/)
 
-> #### 🎯 docker-compose, fiber 를 사용한 mongodb project example 입니다.
+> #### 🎯 [docker-compose](https://github.com/docker/compose), [fiber](https://github.com/gofiber/fiber) 를 사용한 [mongodb](https://github.com/mongodb/mongo-go-driver) project example 입니다.
 > #### 🎯 API with Golang + MongoDB + Fiber: Project Example
 
 ## ⚙️ Installation
