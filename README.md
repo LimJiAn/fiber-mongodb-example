@@ -1,4 +1,4 @@
-# go-mongodb-exam
+# fiber-mongodb-example
 [![Go](https://img.shields.io/badge/go-1.21-blue.svg?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/dl/)
 
 > #### 🎯 [docker-compose](https://github.com/docker/compose), [fiber](https://github.com/gofiber/fiber) 를 사용한 [mongodb](https://github.com/mongodb/mongo-go-driver) project example 입니다.
@@ -6,7 +6,7 @@
 
 ## ⚙️ Installation
 ```shell
-$ git clone https://github.com/LimJiAn/go-mongodb-exam
+$ git clone https://github.com/LimJiAn/fiber-mongodb-example
 ```
 ## 👀 Usage
 #### 1. Run Server (mongo, mongo-express)
@@ -30,21 +30,21 @@ mongodb                | {"t":{"$date":"2023-09-19T07:52:35.764+00:00"},"s":"I",
 mongodb                | {"t":{"$date":"2023-09-19T07:52:35.765+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn4","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":0}}
 mongo-expressre        | Mongo Express server listening at http://0.0.0.0:8081
 
-go-mongodb-exam-web-1  | running...
-go-mongodb-exam-web-1  | 2023/09/19 07:52:35 MongoDB successfully connected...
-go-mongodb-exam-web-1  |
-go-mongodb-exam-web-1  |  ┌───────────────────────────────────────────────────┐
-go-mongodb-exam-web-1  |  │                   Fiber v2.49.2                   │
-go-mongodb-exam-web-1  |  │               http://127.0.0.1:3000               │
-go-mongodb-exam-web-1  |  │       (bound on host 0.0.0.0 and port 3000)       │
-go-mongodb-exam-web-1  |  │                                                   │
-go-mongodb-exam-web-1  |  │ Handlers ............. 8  Processes ........... 1 │
-go-mongodb-exam-web-1  |  │ Prefork ....... Disabled  PID ............... 677 │
-go-mongodb-exam-web-1  |  └───────────────────────────────────────────────────┘
-go-mongodb-exam-web-1  |
+fiber-mongodb-example-web-1  | running...
+fiber-mongodb-example-web-1  | 2023/09/19 07:52:35 MongoDB successfully connected...
+fiber-mongodb-example-web-1  |
+fiber-mongodb-example-web-1  |  ┌───────────────────────────────────────────────────┐
+fiber-mongodb-example-web-1  |  │                   Fiber v2.49.2                   │
+fiber-mongodb-example-web-1  |  │               http://127.0.0.1:3000               │
+fiber-mongodb-example-web-1  |  │       (bound on host 0.0.0.0 and port 3000)       │
+fiber-mongodb-example-web-1  |  │                                                   │
+fiber-mongodb-example-web-1  |  │ Handlers ............. 8  Processes ........... 1 │
+fiber-mongodb-example-web-1  |  │ Prefork ....... Disabled  PID ............... 677 │
+fiber-mongodb-example-web-1  |  └───────────────────────────────────────────────────┘
+fiber-mongodb-example-web-1  |
 ```
 #### 3. You can see useful mongo-express dashboard at [localhost:8081](http://localhost:8081)
-![mongo-express](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/128069a1-7c84-41ea-9ec1-f6920eadc854)
+![mongo-express](https://github.com/LimJiAn/fiber-mongodb-example/assets/85569173/128069a1-7c84-41ea-9ec1-f6920eadc854)
 
 #### 4. Run bash in mongo container
 ```bash
@@ -80,10 +80,10 @@ local    40.00 KiB
 ```
 #### 6. Example with Postman
 ###### 1. POST
-![POST](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/99d9ea3b-019a-400d-89a7-6f91bfb83f09)
+![POST](https://github.com/LimJiAn/fiber-mongodb-example/assets/85569173/99d9ea3b-019a-400d-89a7-6f91bfb83f09)
 ###### 2. GET
-![GET](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/6890b2f3-68b3-4f6b-84e4-035a0fba3701)
+![GET](https://github.com/LimJiAn/fiber-mongodb-example/assets/85569173/6890b2f3-68b3-4f6b-84e4-035a0fba3701)
 ###### 3. PUT
-![PUT](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/185aac45-cd20-4ed2-b399-18d4115f8c4a)
+![PUT](https://github.com/LimJiAn/fiber-mongodb-example/assets/85569173/185aac45-cd20-4ed2-b399-18d4115f8c4a)
 ###### 4. DELETE
-![DELETE](https://github.com/LimJiAn/go-mongodb-exam/assets/85569173/b894ace0-905f-4c71-9f97-7f25c947493a)
+![DELETE](https://github.com/LimJiAn/fiber-mongodb-example/assets/85569173/b894ace0-905f-4c71-9f97-7f25c947493a)
