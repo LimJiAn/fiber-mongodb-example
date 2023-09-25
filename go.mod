@@ -1,4 +1,4 @@
-module github.com/LimJiAn/go-mongodb-exam
+module github.com/LimJiAn/fiber-mongodb-example
 
 go 1.21.1
 
